@@ -1,29 +1,110 @@
 ---
-title: "Wall of Targets"
-output: revealjs::revealjs_presentation
+title: "Wall Of Targets"
+subtitle: "Decide what to put here"
+author: "[Kenneth Daily](mailto:kenneth.daily@sagebase.org), Senior Scientist"
+date: "2017-07-11"
+logo: "img/Sage_neon_logo1.png"
+output:
+  revealjs::revealjs_presentation:
+    theme: night
+    template: template.html
+    transition: fade
+    center: true
+    
 ---
 
-## R Markdown
+## Goal
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Create a visual dashboard and integrative analysis platform that provides consistent and robust supporting evidence for use in:
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+* Prioritization of targets nominated by individual AMP-AD projects.
+* Nomination of targets supported across AMP-AD projects.
+* Compilation of AMP-AD evidence for use by research community to evaluate other targets of interest.
 
-## Slide with Bullets
+## Approach
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+1. Develop prototype.
+1. Build alpha platform based on user feedback, focusing on gene-based
+queries for nominated AMP-AD targets.
+1. Expand to include genes across the genome (partnership with
+Josh Shulman @ Baylor).
+1. Expand to provide entry points based on gene, protein, network,
+or variant queries.
 
-## Slide with R Code and Output
+> **Anticipated users:** AMP-AD consortium and affiliates, MODEL-AD consortium, external AD researchers
 
-```{r}
-summary(cars)
-```
+## Enhancing AMP-AD Project R01
 
-## Slide with Plot
+*Increasing resources for target prioritization<br/>within the AMP-AD community*
 
-```{r, echo=FALSE}
-plot(cars)
-```
+![amp steering](img/ampadsteering.png)
 
+## User experience interviews
+
+> Understand how our users will interact and utilize the Wall of Targets application - usages, pain points, gaps, and preferences.
+
+> Performed **think aloud exercise** - use the application and state what you are doing and what you are thinking as you use the prototype. 
+
+> 10 participants, including 4 industry/pharma and 3 mouse model system researchers
+
+## Version 0, main page
+
+![original main page](img/old_mainpage.png)
+
+## Version 0, detail page
+
+![original detail page](img/old_details_SYT1.png)
+
+## Interviews - what we learned
+
+1. Biological context
+1. Druggability vs. tractability
+1. Nominations and source of evidence
+1. Consistency and reproducibility across cohorts
+1. Ranking and comparison
+
+## Main page, alpha version
+
+![new main page](img/new_mainpage.png)
+
+> Includes overview of evidence for indication of strength of target (future: include ranking).
+
+## Details page, alpha version
+
+![new detail page](img/new_detailspage_syt1.png)
+
+> Condensed layout including biological context.
+
+## Details page, alpha version
+
+![new detail page](img/new_detailspage_syt1_annotated.png)
+
+> Indication of data sources.
+
+## Gene Ontology terms, alpha version
+
+![new go annotations](img/new_goannot_syt1.png)
+
+## Biological pathways, alpha version
+
+![new biological pathways](img/new_biopathways_syt1.png)
+
+## Mouse models, alpha version
+
+![new mouse models](img/new_mousemodels.png)
+
+## Baseline RNA Expression, alpha version
+
+![new expression atlas](img/new_expressionatlas.png)
+
+> Expression from more sources and outside of brain.
+
+## Nomination evidence, alpha version
+
+![new nomination evidence](img/new_nominationevidence_SYT1.png)
+
+> Show evidence from nominating center(s).
+
+## Other data sources, alpha version
+
+![new details page](img/new_detailspage_syt1_annotated.png)
