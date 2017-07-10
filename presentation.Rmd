@@ -26,7 +26,7 @@ Create a visual dashboard and integrative analysis platform that provides consis
 1. Develop prototype.
 1. Build alpha platform based on user feedback, focusing on gene-based
 queries for nominated AMP-AD targets.
-1. Expand to include genes across the genome (partnership with
+1. Expand to include genes across the transcriptome (partnership with
 Josh Shulman @ Baylor).
 1. Expand to provide entry points based on gene, protein, network,
 or variant queries.
@@ -58,16 +58,16 @@ or variant queries.
 ## Interviews - what we learned
 
 1. Biological context
-1. Druggability vs. tractability
 1. Nominations and source of evidence
 1. Consistency and reproducibility across cohorts
+1. Druggability vs. tractability
 1. Ranking and comparison
 
 ## Main page, alpha version
 
 ![new main page](img/new_mainpage.png)
 
-> Includes overview of evidence for indication of strength of target (future: include ranking).
+> Includes overview of evidence for indication of strength of target.
 
 ## Details page, alpha version
 
@@ -97,14 +97,42 @@ or variant queries.
 
 ![new expression atlas](img/new_expressionatlas.png)
 
-> Expression from more sources and outside of brain.
+> Expression from more sources<br/>and outside of brain.
+
+## Search
+
+![new details page](img/search.jpg)
+
+> Enable for nominated targets<br/>(future: whole transcriptome)
 
 ## Nomination evidence, alpha version
 
 ![new nomination evidence](img/new_nominationevidence_SYT1.png)
 
-> Show evidence from nominating center(s).
+> Show evidence from nominating center(s)
 
-## Other data sources, alpha version
+## Looking forward
 
-![new details page](img/new_detailspage_syt1_annotated.png)
+- Druggability vs. tractability
+- Module-centric search and interaction
+- eQTL and genomic variants
+- Evidence-based ranking
+
+## Evidence-based ranking
+
+![new main page](img/new_mainpage.png)
+
+## 
+
+![ben slide 1](img/ben_Slide1.jpg)
+
+## 
+
+![ben slide 2](img/ben_Slide2.jpg)
+
+## 
+
+![ben slide 3](img/ben_Slide3.jpg)
+
+## Thank you
+
