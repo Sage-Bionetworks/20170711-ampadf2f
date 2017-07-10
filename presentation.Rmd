@@ -63,6 +63,10 @@ or variant queries.
 1. Druggability vs. tractability
 1. Ranking and comparison
 
+## Overview design
+
+![new main page](img/overview.png)
+
 ## Main page, alpha version
 
 ![new main page](img/new_mainpage.png)
