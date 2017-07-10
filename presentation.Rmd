@@ -138,5 +138,23 @@ or variant queries.
 
 ![ben slide 3](img/ben_Slide3.jpg)
 
+## AD target explorer: User experience
+
+![josh slide 1](img/josh_Slide1.png)
+
+> Rami Al-Ouran, Joshua Shulman, Zhandong Liu<br/>Baylor College of Medicine
+
+## AD target explorer: Diagnosis
+
+![josh slide 2](img/josh_Slide2.png)
+
+## AD target explorer: Quantitative Neuropathology
+
+*plaque mean (MSSM)*
+
+![josh slide 3](img/josh_Slide3.png)
+
+> Tool also computes simple statistical tests and returns significance.
+
 ## Thank you
 
