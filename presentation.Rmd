@@ -1,6 +1,5 @@
 ---
 title: "The AMP-AD Wall Of Targets"
-subtitle: "Decide what to put here"
 author: "[Lara Mangravite](lara.mangravite@sagebase.org), [Ben Logsdon](ben.logsdon@sagebase.org),<br/>[Kenneth Daily](mailto:kenneth.daily@sagebase.org)"
 date: "2017-07-11"
 logo: "img/Sage_neon_logo1.png"
